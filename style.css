@@ -80,3 +80,52 @@ body{
     display: flex;
     gap: 15px;
 }
+@media (max-width:576px) {
+    body{
+        overflow:scroll ;
+    }
+    .header{
+        display: flex;
+
+       gap: 50px;
+        width: 100%;
+    }
+    .btn{
+        display: flex;
+        justify-content: end;
+        gap: 5px;
+        /* background: red; */
+    }
+    .btn button{
+        font-size: 20px;
+        width: 170px;
+        padding: 15px;
+        
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+
+        height: fit-content;
+        text-align: center;
+        align-items: center;
+        width: 800px;
+        row-gap: 30px;
+    }
+    .child{
+      
+        padding: 20px;
+        width:650px;
+
+    }
+     #child-1 img , #child-2 img , #child-3 img, #child-4 img , #child-5 img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        margin-left: 230px; 
+    }
+}
